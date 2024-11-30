@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/fifth-winter-443212-v1/todolist', '.']
+images:
+- 'gcr.io/fifth-winter-443212-v1/todolist'
